@@ -1,0 +1,16 @@
+name: TevoKitPVE
+description: Runs the kitpve server.
+version: ALPHA 1.1.3
+author: Thrusmyster
+main: com.tevonetwork.tevokitpve.TevoKitPVE
+website: http://www.tevonetwork.com
+depend: [TevoAPI, LibsDisguises]
+commands:
+    kitpvp:
+        description: Manage KitPVE stuff
+        aliases: [pvp, pve]
+    hub:
+        description: Send player back to hub
+        aliases: [lobby, leave]
+    tevokitpvp:
+        description: Author stamp
